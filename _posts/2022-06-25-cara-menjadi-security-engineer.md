@@ -8,13 +8,13 @@ Cara menjadi security engineer? Pertanyaan yang sangat sering diajukan ketika gw
 
 ## Security Engineer
 
-Jika kalian sudah familiar dengan istilah Pentester yang cenderung offensive dan menyerang (70% menyerang, 30% wawasan bertahan). Abaikan angka persennya darimana, ini berdasarkan pengalaman gw, dan bisa berbeda dengan kalian. Nah, Di role security engineer proporsinya terbalik dimana 30% wawasan menyerang dan 70% wawasan untuk bertahan.
+Jika kalian sudah familiar dengan istilah Pentester yang cenderung offensive (70% menyerang, 30% wawasan bertahan). Please, abaikan angka persennya darimana, karena angka ini berdasarkan pengalaman gw, dan bisa berbeda dengan kalian. Nah, Di role security engineer proporsinya terbalik dimana 30% wawasan menyerang dan 70% wawasan untuk bertahan.
 
 ## Jalan ninja
 
 Pekerjaan sehari-hari di role Security Engineer banyak memberikan kontribusi berupa mitigasi dan strategi pencegahan sebelum produk tersebut di deploy ke production atau di deliver ke pengguna. Jadi gimana mitigasi dan pencegahannya?
 
-Sebenarnya bisa dibilang rumit tapi tidak serumit yang dibayangkan. Sebagai contoh kita menerapkan cara menetralkan data yang dikirim user agar tidak menyebabkan isu seperti XSS dan SQL Injection. Dari sini cukup jelas kan?
+Sebenarnya bisa dibilang rumit tapi tidak serumit yang dibayangkan. Sebagai contoh kita menerapkan netralisasi data yang dikirim user agar tidak menyebabkan isu seperti XSS dan SQL Injection. Dari sini cukup jelas kan?
 
 ## Apakah sesimpel itu?
 
@@ -34,4 +34,4 @@ Simpelnya jika kalian bekerja di tempat dimana semua program cyber security suda
 
 Security engineer biasa hanya melihat sisi teknis, dan terlalu idealis dalam memutuskan segala hal. Padahal setiap strategi mitigasi dan pencegahan selalu bersamaan dengan tingkat usaha (effort), dampak (impact), anggaran (budget), dan sumber daya manusia yang ikut berpartisipasi dalam implementasi.
 
-Simpelnya, untuk apa kita menerapkan SSL Pinning terlebih dahulu jika ternyata ada XSS yang ternyata ada. Jika memilih diantara dua isu tersebut gw akan lebih memilih perbaikan XSS dulu, baru SSL Pinning. Jadi sudah paham bukan? Kita harus bisa mengatur prioritas, dengan kondisi yang ada pilihlah task yang bisa didulukan dengan effort rendah, impact besar, budget rendah, dan resource yang seadanya.
+Simpelnya, untuk apa kita menerapkan SSL Pinning terlebih dahulu jika ternyata ada XSS yang dampaknya lebih membahayakan? Jika memilih diantara dua isu tersebut gw akan lebih memilih perbaikan XSS dulu, baru SSL Pinning. Jadi sudah paham bukan? Kita harus bisa mengatur prioritas, dengan kondisi yang ada pilihlah task yang bisa didulukan dengan effort rendah, impact besar, budget rendah, dan resource yang seadanya.
